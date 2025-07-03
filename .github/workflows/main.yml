@@ -34,5 +34,5 @@ jobs:
       # что нужно проверить файлы только в папке backend/
       run: python -m flake8 backend/
       # И запускаем тесты
-      cd backend/
-      python manage.py test
+        cd backend/
+        python manage.py test
